@@ -68,7 +68,7 @@ export default {
             ReactImg,
             Node,
             Git,
-            Mongo,
+            Redux,
             PostgreSQL,
             VueImg, 
             eng: {

@@ -2,17 +2,17 @@
   <div className='w-full md:w-[90%] mx-auto flex flex-col bg-slate-100 dark:bg-[#0a192f] text-center justify-center items-center'>
       <ul className="animate__bounce flex justify-center items-center w-[300px]">
           <li className='w-[30px] h-[50px] px-2 mx-auto flex justify-between items-center'>
-              <a className='flex justify-between items-center w-full text-[#f9b82c] dark:text-white duration-300' href='https://www.linkedin.com/in/mario1927/' target='_blank' rel="noreferrer"> 
+              <a className='flex justify-between items-center w-full text-[#f9b82c] dark:text-white duration-300' href='https://www.linkedin.com/in/juan-pablo-osudar-00661821b/' target='_blank' rel="noreferrer"> 
                   <fa :icon="['fab', 'linkedin']" class="fa-xl" />
               </a>
           </li>
           <li className='w-[25px] h-[50px] px-2 mx-auto flex justify-between items-center'>
-              <a className='flex justify-between items-center w-full text-[#f9b82c] dark:text-white duration-300' href='https://github.com/Mario1927' target='_blank' rel="noreferrer"> 
+              <a className='flex justify-between items-center w-full text-[#f9b82c] dark:text-white duration-300' href='https://github.com/parzybaal' target='_blank' rel="noreferrer"> 
                   <fa :icon="['fab', 'github']" class="fa-xl" />
               </a>
           </li>
           <li className='w-[25px] h-[50px] px-2 mx-auto flex justify-between items-center'>
-              <a className='flex justify-between items-center w-full text-[#f9b82c] dark:text-white duration-300' href='mailto:hernandez.mario@correounivalle.edu.co' target='_blank' rel="noreferrer"> 
+              <a className='flex justify-between items-center w-full text-[#f9b82c] dark:text-white duration-300' href='mailto:juampi.parzybal@gmail.com' target='_blank' rel="noreferrer"> 
                   <fa icon="envelope" class="fa-xl" />
               </a>
           </li>
@@ -33,11 +33,11 @@ export default {
     return {
       eng: {
         subtitle: '// Design inspired on Brittany Chiang & Code Commerce',
-        title: 'Built by Mario Hernández'
+        title: 'Built by Juan Pablo Osudar'
       },
       es: {
         subtitle: '// Diseño inspirado en Brittany Chiang & Code Commerce',
-        title: 'Desarrollado por Mario Hernández'
+        title: 'Desarrollado por Juan Pablo Osudar'
       }
     }
   },
@@ -46,7 +46,7 @@ export default {
       return this.$store.state.lang === 'en' ? this.eng : this.es
     },
     link(){
-      return this.$store.state.lang === 'en' ? 'https://drive.google.com/file/d/1dAsOim6CO8D45TihSuxrSJyG-stJD3XD/view?usp=sharing' : 'https://drive.google.com/file/d/1aMk9dMyl2PQ0L-c7CfW9DMp5Iq_4cYxL/view?usp=sharing'
+      return this.$store.state.lang === 'en' ? 'https://drive.google.com/file/d/1TzW1Vksg7UyQIU4JOlGHiJL-cJySRHgb/view?usp=sharing' : 'https://drive.google.com/file/d/1yEdfGEEz2y1yo2z12xHL_8pJr-rdHJQg/view?usp=sharing'
     }
   }
 }

@@ -40,7 +40,7 @@ export default {
             return this.$store.state.lang === 'en' ? this.eng : this.es
         },
         link(){
-            return this.$store.state.lang === 'en' ? 'https://drive.google.c1TzW1Vksg7UyQIU4JOlGHiJLom/file/d/1dAsOim6CO8D45TihSuxrSJyG-stJD3XD/view?usp=sharing' : 'https://drive.google.com/file/d/1yEdfGEEz2y1yo2z12xHL_8pJr-rdHJQg/view?usp=sharing'
+            return this.$store.state.lang === 'en' ? 'https://drive.google.com/file/d/1TzW1Vksg7UyQIU4JOlGHiJL-cJySRHgb/view?usp=sharing' : 'https://drive.google.com/file/d/1yEdfGEEz2y1yo2z12xHL_8pJr-rdHJQg/view?usp=sharing'
         }
     }
 }

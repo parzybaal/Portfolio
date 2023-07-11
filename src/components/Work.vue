@@ -21,12 +21,12 @@
                 </div>
                 <div className="flex md:w-[130%] z-10 pt-4">
                     <ul className="flex flex-wrap text-sm font-medium text-[#4a6087] dark:text-slate-400" :style="{'-webkit-text-stroke': '0.1px black'}">
-                        <li className="pr-4"> <p>React</p> </li>
-                        <li className="pr-4"> <p>Redux</p> </li>
-                        <li className="pr-4"> <p>Node</p> </li>
-                        <li className="pr-4"> <p>Express</p> </li>
-                        <li className="pr-4"> <p>PostgreSQL</p> </li>
-                        <li className="pr-4"> <p>Sequelize</p> </li>
+                        <li className="pr-4 dark:text-[#06a608]"> <p>React</p> </li>
+                        <li className="pr-4 dark:text-[#06a608]"> <p>Redux</p> </li>
+                        <li className="pr-4 dark:text-[#06a608]"> <p>Node</p> </li>
+                        <li className="pr-4 dark:text-[#06a608]"> <p>Express</p> </li>
+                        <li className="pr-4 dark:text-[#06a608]"> <p>PostgreSQL</p> </li>
+                        <li className="pr-4 dark:text-[#06a608]"> <p>Sequelize</p> </li>
                     </ul>
                 </div>
                 <div className="flex relative bottom-[-20px]">
@@ -59,16 +59,16 @@
                 </div>
                 <div className="flex md:w-[130%] relative md:right-[30%] z-10 pt-4">
                     <ul className="flex flex-wrap md:justify-end text-sm font-medium text-[#4a6087] dark:text-slate-400" :style="{'-webkit-text-stroke': '0.1px black'}">
-                        <li className="md:pl- pr-4 md:pr-0"> <p>React</p> </li>
-                        <li className="md:pl-4 pr-4 md:pr-0"> <p>Redux toolkit</p> </li>
-                        <li className="md:pl-4 pr-4 md:pr-0"> <p>Express</p> </li>
-                        <li className="md:pl-4 pr-4 md:pr-0"> <p>Firebase</p> </li>
-                        <li className="md:pl-4 pr-4 md:pr-0"> <p>PostgreSQL</p> </li>
-                        <li className="md:pl-4 pr-4 md:pr-0"> <p>Sequelize</p> </li>
-                        <li className="md:pl-4 pr-4 md:pr-0"> <p>JWT</p> </li>
-                        <li className="md:pl-4 pr-4 md:pr-0"> <p>Cloudinary</p> </li>
-                        <li className="md:pl-4 pr-4 md:pr-0"> <p>SCRUM</p> </li>
-                        <li className="md:pl-4 pr-4 md:pr-0"> <p>Nodemailer</p> </li>
+                        <li className="md:pl- pr-4 md:pr-0 dark:text-[#06a608]"> <p>React</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608] text-shadow: 8px 8px 8px rgb(0, 0, 0);"> <p>Redux toolkit</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>Express</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>Firebase</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>PostgreSQL</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>Sequelize</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>JWT</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>Cloudinary</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>SCRUM</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>Nodemailer</p> </li>
                     </ul>
                 </div>
                 <div className="flex relative bottom-[-20px] justify-end">
@@ -134,9 +134,10 @@ export default {
 
 <style scoped>
     .bg {
-        background-color: rgba(0, 128, 128, 0.6);
+        background-color: #00808099;
         background-blend-mode: lighten;
         border-radius: 0.25rem;
+        color: #06a608;
     }
 
     .bg:hover {

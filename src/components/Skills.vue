@@ -36,8 +36,8 @@
                       <p className='mt-4'>NODE JS</p>
                   </div>
                   <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
-                      <img className='w-20 mx-auto' :src='Mongo' alt="HTML icon" />
-                      <p className='mt-4'>MONGO DB</p>
+                      <img className='w-20 mx-auto' :src='Redux' alt="HTML icon" />
+                      <p className='mt-4'>Redux</p>
                   </div>
                   <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
                       <img className='w-20 mx-auto' :src='PostgreSQL' alt="HTML icon" />
@@ -56,7 +56,7 @@ import ReactImg from '../assets/react.png';
 import VueImg from '../assets/vue.png';
 import Node from '../assets/node.png';
 import Git from '../assets/git.png';
-import Mongo from '../assets/mongo.png';
+import Redux from '../assets/redux.png';
 import PostgreSQL from '../assets/postgres.png';
 
 export default {

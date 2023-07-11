@@ -54,6 +54,6 @@ export default {
 
 <style scoped>
     a:hover {
-        color: rgb(219 39 119);
+        color: rgb(22, 78, 169);
     }
 </style>

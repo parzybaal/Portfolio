@@ -247,29 +247,29 @@ export default {
                     description: 'An e-commerce of electronic products that consumes its own database allows users to register, browse, filter, order and add products to the cart. They can also modify their profile and make payments securely through an integration with Stripe. In addition, the administrator is provided with a control panel where he can modify products, hide products, grant privileges, delete user reviews and use sales statistics to manage trade efficiently.'
                 },
                 work03: {
-                    title: 'E-latam commerce',
+                    title: 'Munia',
                     subtitle: 'Featured Project',
-                    description: 'An e-commerce of electronic products that consumes its own database allows users to register, browse, filter, order and add products to the cart. They can also modify their profile and make payments securely through an integration with Stripe. In addition, the administrator is provided with a control panel where he can modify products, hide products, grant privileges, delete user reviews and use sales statistics to manage trade efficiently.'
+                    description: 'Contributed to the achievement of creating a section where users, companies, and healthcare professionals can register on the platform and manage sessions with each other in a simple and secure manner. Provided Munia the ability to manage and monitor the website from their dashboard.'
                 },
                 work04: {
-                    title: 'E-latam commerce',
+                    title: 'Indian & Co',
                     subtitle: 'Featured Project',
-                    description: 'An e-commerce of electronic products that consumes its own database allows users to register, browse, filter, order and add products to the cart. They can also modify their profile and make payments securely through an integration with Stripe. In addition, the administrator is provided with a control panel where he can modify products, hide products, grant privileges, delete user reviews and use sales statistics to manage trade efficiently.'
+                    description: "Collaborative work within a team for the development of a self-administered e-commerce platform using the SCRUM methodology. Performed dual roles as a Product Owner and full stack developer throughout the entire development lifecycle of the application. Contributed to the success of the Indian & Co e-commerce development, resulting in strengthening and expanding the brand's online presence."
                 },
                 work05: {
-                    title: 'E-latam commerce',
+                    title: 'Super-Market',
                     subtitle: 'Featured Project',
-                    description: 'An e-commerce of electronic products that consumes its own database allows users to register, browse, filter, order and add products to the cart. They can also modify their profile and make payments securely through an integration with Stripe. In addition, the administrator is provided with a control panel where he can modify products, hide products, grant privileges, delete user reviews and use sales statistics to manage trade efficiently.'
+                    description: 'Design and development of an online supermarket for shopping and placing orders, user registrations, statistics, self-administration, filters by categories and subcategories, reviews, all payment methods, shipping, etc.'
                 },
                 work06: {
                     title: 'Marvel Comics',
                     subtitle: 'Featured Project',
-                    description: 'An e-commerce of electronic products that consumes its own database allows users to register, browse, filter, order and add products to the cart. They can also modify their profile and make payments securely through an integration with Stripe. In addition, the administrator is provided with a control panel where he can modify products, hide products, grant privileges, delete user reviews and use sales statistics to manage trade efficiently.'
+                    description: 'Technical test where the objective was to develop a Single Page Application (SPA) where users can search for and view comics from the Marvel Comics public API in a paginated manner using a specific tech stack and deploy it.'
                 },
             }, 
             es: {
-                title: 'Proyectos',
-                subtitle: '// Mira algunos de mis proyectos más recientes',
+                title: 'Experiencia laboral y Proyectos',
+                subtitle: '// Mira algunos de mis proyectos o experiencias más recientes',
                 work01: {
                     title: 'Aplicación de Perros',
                     subtitle: 'Proyecto Destacado',

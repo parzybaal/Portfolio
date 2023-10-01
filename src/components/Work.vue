@@ -43,14 +43,14 @@
                     </a>
                 </div>
             </div>
-            <a className="hidden md:flex w-[70%] h-[250px] my-auto z-0 overflow-hidden" href='https://github.com/parzybaal/super-market-client' target='_blank' rel="noreferrer">
-                <div className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300" :style="{'background-image': 'url(' + SuperMarket + ')'}"/>
+            <a className="hidden md:flex w-[100%] h-[200px] my-auto z-0 overflow-hidden" href='https://github.com/parzybaal/super-market-client' target='_blank' rel="noreferrer">
+                <img src="https://i.postimg.cc/DwhXW0x7/super-market.png" className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300"/>
             </a>
         </div>
         <!-- INDIAN & CO -->
         <div className='flex bg-slate-300 dark:bg-[#112240] bg-cover px-8 py-12 md:bg-transparent dark:md:bg-transparent md:p-0 mb-12' data-aos="fade-in">
-            <a className="hidden md:flex w-[70%] h-[250px] my-auto z-0 overflow-hidden" href='https://www.indianandco.com.ar/' target='_blank' rel="noreferrer">
-                <div className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300" :style="{'background-image': 'url(' + Indian + ')'}"/>
+            <a className="hidden md:flex w-[100%] h-[250px] my-auto z-0 overflow-hidden" href='https://www.indianandco.com.ar/' target='_blank' rel="noreferrer">
+                <img src="https://i.postimg.cc/Hkt7bmNX/indianandco.png" className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300"/>
             </a>
             <div className="flex flex-col md:w-[60%] py-4">
                 <div className="flex flex-col relative top-[-35px] text-right">
@@ -115,8 +115,8 @@
                     </a>
                 </div>
             </div>
-            <a className="hidden md:flex w-[70%] h-[250px] my-auto z-0 overflow-hidden" href='https://munia.co/' target='_blank' rel="noreferrer">
-                <div className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300" :style="{'background-image': 'url(' + Munia + ')'}"/>
+            <a className="hidden md:flex w-[100%] h-[250px] my-auto z-0 overflow-hidden" href='https://munia.co/' target='_blank' rel="noreferrer">
+                <img src="https://i.postimg.cc/FKWdnZNK/munia.png" className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300"/>
             </a>
         </div>
         <!-- MARVEL COMICS  -->
@@ -147,15 +147,15 @@
                     </a>
                 </div>
             </div>
-            <a className="hidden md:flex w-[70%] h-[250px] my-auto z-0 overflow-hidden" href='http://juanpabloosudar-spa-marvel.s3-website.us-east-2.amazonaws.com/' target='_blank' rel="noreferrer">
-                <div className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300" :style="{'background-image': 'url(' + Marvel + ')'}"/>
+            <a className="hidden md:flex w-[100%] h-[250px] my-auto z-0 overflow-hidden" href='http://juanpabloosudar-spa-marvel.s3-website.us-east-2.amazonaws.com/' target='_blank' rel="noreferrer">
+                <img src="https://i.postimg.cc/9fFwpS3S/marvel.png" className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300"/>
             </a>
         </div>
         <!-- E-LATAM -->
 
         <div className='flex bg-slate-300 dark:bg-[#112240] bg-cover px-8 py-12 md:bg-transparent dark:md:bg-transparent md:p-0 mb-12' data-aos="fade-in">
-            <a className="hidden md:flex w-[70%] h-[250px] my-auto z-0 overflow-hidden" href='https://pf-e-latam.netlify.app/' target='_blank' rel="noreferrer">
-                <div className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300" :style="{'background-image': 'url(' + ELatam + ')'}"/>
+            <a className="hidden md:flex w-[100%] h-[250px] my-auto z-0 overflow-hidden" href='https://pf-e-latam.netlify.app/' target='_blank' rel="noreferrer">
+                <img src="https://i.postimg.cc/tT55Dg5j/e-latam.png" className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300"/>
             </a>
             <div className="flex flex-col md:w-[60%] py-4">
                 <div className="flex flex-col relative top-[-35px] text-right">
@@ -219,8 +219,8 @@
                     </a>
                 </div>
             </div>
-            <a className="hidden md:flex w-[70%] h-[250px] my-auto z-0 overflow-hidden" href='https://github.com/parzybaal/PI-Dogs-main' target='_blank' rel="noreferrer">
-                <div className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300" :style="{'background-image': 'url(' + HenryDogs + ')'}"/>
+            <a className="hidden md:flex w-[100%] h-[250px] my-auto z-0 overflow-hidden" href='https://github.com/parzybaal/PI-Dogs-main' target='_blank' rel="noreferrer">
+                <img src="https://i.postimg.cc/d3V9fKHT/Henry-Dogs.jpg" className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300"/>
             </a>
         </div>
       </div>
@@ -229,22 +229,10 @@
 </template>
 
 <script>
-import ELatam from '../assets/e-latam.png'
-import HenryDogs from '../assets/HenryDogs.jpeg'
-import SuperMarket from '../assets/super-market.png'
-import Indian from '../assets/indianandco.png'
-import Munia from '../assets/munia.png'
-import Marvel from '../assets/marvel.png'
 
 export default {
     data() {
         return {
-            ELatam,
-            HenryDogs,
-            SuperMarket,
-            Indian,
-            Munia,
-            Marvel,
             eng: {
                 title: 'Work',
                 subtitle: '// Check out some of my recent work',

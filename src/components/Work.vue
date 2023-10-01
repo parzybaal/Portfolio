@@ -64,16 +64,16 @@
                 </div>
                 <div className="flex md:w-[130%] relative md:right-[30%] z-10 pt-4">
                     <ul className="flex flex-wrap md:justify-end text-sm font-medium text-[#4a6087] dark:text-slate-400" :style="{'-webkit-text-stroke': '0.1px black'}">
-                        <li className="md:pl- pr-4 md:pr-0 dark:text-[#06a608]"> <p>React</p> </li>
-                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608] text-shadow: 8px 8px 8px rgb(0, 0, 0);"> <p>MaterialUI</p> </li>
-                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>Express</p> </li>
-                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>Javascript</p> </li>
-                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>MongoDB</p> </li>
-                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>Express</p> </li>
-                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>Mongoose</p> </li>
-                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>Cloudinary</p> </li>
-                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>Passport</p> </li>
-                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>JWT</p> </li>
+                        <li className="md:pl- pr-4 md:pr-0 dark:text-[#0000FF]"> <p>React</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#0000FF] text-shadow: 8px 8px 8px rgb(0, 0, 0);"> <p>MaterialUI</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#0000FF]"> <p>Express</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#0000FF]"> <p>Javascript</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#0000FF]"> <p>MongoDB</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#0000FF]"> <p>Express</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#0000FF]"> <p>Mongoose</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#0000FF]"> <p>Cloudinary</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#0000FF]"> <p>Passport</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#0000FF]"> <p>JWT</p> </li>
                     </ul>
                 </div>
                 <div className="flex relative bottom-[-20px] justify-end">
@@ -133,12 +133,12 @@
                 </div>
                 <div className="flex md:w-[130%] z-10 pt-4">
                     <ul className="flex flex-wrap text-sm font-medium text-[#4a6087] dark:text-slate-400" :style="{'-webkit-text-stroke': '0.1px black'}">
-                        <li className="pr-4 dark:text-[#000000]"> <p>React</p> </li>
-                        <li className="pr-4 dark:text-[#000000]"> <p>MaterialUI</p> </li>
-                        <li className="pr-4 dark:text-[#000000]"> <p>Javascript</p> </li>
-                        <li className="pr-4 dark:text-[#000000]"> <p>Sass</p> </li>
-                        <li className="pr-4 dark:text-[#000000]"> <p>Redux</p> </li>
-                        <li className="pr-4 dark:text-[#000000]"> <p>AWS(S3)</p> </li>
+                        <li className="pr-4 dark:text-[#0000FF]"> <p>React</p> </li>
+                        <li className="pr-4 dark:text-[#0000FF]"> <p>MaterialUI</p> </li>
+                        <li className="pr-4 dark:text-[#0000FF]"> <p>Javascript</p> </li>
+                        <li className="pr-4 dark:text-[#0000FF]"> <p>Sass</p> </li>
+                        <li className="pr-4 dark:text-[#0000FF]"> <p>Redux</p> </li>
+                        <li className="pr-4 dark:text-[#0000FF]"> <p>AWS(S3)</p> </li>
                     </ul>
                 </div>
                 <div className="flex relative bottom-[-20px]">

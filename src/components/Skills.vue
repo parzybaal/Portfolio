@@ -12,36 +12,64 @@
                       <p className='mt-4'>HTML</p>
                   </div>
                   <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
-                      <img className='w-20 mx-auto' :src='CSS' alt="HTML icon" />
+                      <img className='w-20 mx-auto' :src='CSS' alt="CSS icon" />
                       <p className='mt-4'>CSS</p>
                   </div>
                   <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
-                      <img className='w-20 mx-auto' :src='JavaScript' alt="HTML icon" />
+                      <img className='w-20 mx-auto' :src='JavaScript' alt="Javascript icon" />
                       <p className='mt-4'>JAVASCRIPT</p>
                   </div>
                   <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
-                      <img className='w-20 mx-auto' :src='ReactImg' alt="HTML icon" />
+                      <img className='w-20 mx-auto' :src='ReactImg' alt="React icon" />
                       <p className='mt-4'>REACT</p>
                   </div>
                   <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
-                      <img className='w-20 mx-auto' :src='VueImg' alt="HTML icon" />
+                      <img className='w-20 mx-auto' :src='VueImg' alt="Vue icon" />
                       <p className='mt-4'>VUE</p>
                   </div>
                   <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
-                      <img className='w-20 mx-auto' :src='Git' alt="HTML icon" />
+                      <img className='w-20 mx-auto' :src='Git' alt="Git icon" />
                       <p className='mt-4'>GIT</p>
                   </div>
                   <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
-                      <img className='w-20 mx-auto' :src='Node' alt="HTML icon" />
+                      <img className='w-20 mx-auto' :src='Node' alt="Node.js icon" />
                       <p className='mt-4'>NODE JS</p>
                   </div>
                   <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
-                      <img className='w-20 mx-auto' :src='Redux' alt="HTML icon" />
+                      <img className='w-20 mx-auto' :src='Redux' alt="Redux icon" />
                       <p className='mt-4'>Redux</p>
                   </div>
                   <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
-                      <img className='w-20 mx-auto' :src='PostgreSQL' alt="HTML icon" />
+                      <img className='w-20 mx-auto' :src='PostgreSQL' alt="PostgreSQL icon" />
                       <p className='mt-4'>POSTGRESQL</p>
+                  </div>
+                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
+                      <img className='w-20 mx-auto' :src='Aws' alt="AWS icon" />
+                      <p className='mt-4'>AWS</p>
+                  </div>
+                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
+                      <img className='w-20 mx-auto' :src='Bootstrap' alt="Bootstrap icon" />
+                      <p className='mt-4'>Bootstrap</p>
+                  </div>
+                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
+                      <img className='w-20 mx-auto' :src='Express' alt="Express icon" />
+                      <p className='mt-4'>Express</p>
+                  </div>
+                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
+                      <img className='w-20 mx-auto' :src='MaterialUI' alt="MaterialUI icon" />
+                      <p className='mt-4'>MaterialUI</p>
+                  </div>
+                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
+                      <img className='w-20 mx-auto' :src='MongoDb' alt="MongoDB icon" />
+                      <p className='mt-4'>MongoDB</p>
+                  </div>
+                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
+                      <img className='w-20 mx-auto' :src='Ts' alt="Ts icon" />
+                      <p className='mt-4'>TS</p>
+                  </div>
+                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
+                      <img className='w-20 mx-auto' :src='Vite' alt="Vite icon" />
+                      <p className='mt-4'>Vite</p>
                   </div>
               </div>
           </div>
@@ -58,6 +86,13 @@ import Node from '../assets/node.png';
 import Git from '../assets/git.png';
 import Redux from '../assets/redux.png';
 import PostgreSQL from '../assets/postgres.png';
+import Aws from '../assets/aws.png'
+import Bootstrap from '../assets/bootstrap.png'
+import Express from '../assets/express.png'
+import MaterialUI from '../assets/materialui.png'
+import MongoDb from '../assets/mongodb.png'
+import Ts from '../assets/ts.png'
+import Vite from '../assets/vite.png'
 
 export default {
     data() {
@@ -70,6 +105,13 @@ export default {
             Git,
             Redux,
             PostgreSQL,
+            Aws,
+            Bootstrap,
+            Express,
+            MaterialUI,
+            MongoDb,
+            Ts,
+            Vite,
             VueImg, 
             eng: {
                 title: 'Skills',

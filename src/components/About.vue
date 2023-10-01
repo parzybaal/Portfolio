@@ -30,13 +30,13 @@ export default {
                 section: 'About',
                 title: 'Nice to meet you. Please take a look around.',
                 text: 'Since I was very young, I have been interested in technology. At the age of 15, I built my first PC. I enjoy playing video games, meeting new people, and facing challenges that put my skills to the test.',
-                subtext: "To date, I have completed 2 full stack projects in Henry's bootcamp, and I continue to seek new challenges to improve my skills. If you are looking for a collaborator or recruiting new talent, feel free to contact me!"
+                subtext: "Up to date, I have completed a practical UX/UI course at educaciónIT and an advanced HTML/CSS course at Coderhouse. I have also successfully finished the Henry bootcamp. I keep studying and seeking new challenges to enhance my skills. If you're looking for a collaborator or a new recruit, feel free to contact me!"
             },
             es: {
                 section: 'Sobre mi',
                 title: '¡Siéntete libre de explorar mi portafolio!',
                 text: 'Desde muy pequeño estuve interesado en la tecnología. A los 15 años, armé mi primera PC. Me gustan los videojuegos, conocer nuevas personas y enfrentar desafíos que pongan a prueba mis habilidades.',
-                subtext: 'A la fecha, he completado 2 proyectos full stack en el bootcamp de Henry y sigo buscando nuevos desafíos para mejorar mis habilidades. Si estás buscando un colaborador o un nuevo recluta, ¡no dudes en contactarme!',
+                subtext: 'A la fecha, he completado un curso práctico de UX/UI en educaciónIT y otro sobre HTML/CSS avanzado en Coderhouse. Asimismo, finalicé exitosamente el bootcamp de Henry. Sigo estudiando y buscando nuevos desafíos para mejorar mis habilidades. Si estás en busca de un colaborador o un nuevo miembro en tu equipo, ¡no dudes en contactarme!',
             },
             isVisible: false,
         }

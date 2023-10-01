@@ -234,10 +234,10 @@
 <script>
 import ELatam from '../assets/e-latam.png'
 import HenryDogs from '../assets/HenryDogs.jpeg'
-import SuperMarket from '../assets/super-market.png'
-import Indian from '../assets/indianandco.png'
+import SuperMarket from '../assets/super-market.PNG'
+import Indian from '../assets/indianandco.PNG'
 import Munia from '../assets/munia.png'
-import Marvel from '../assets/marvel.png'
+import Marvel from '../assets/marvel.PNG'
 
 export default {
     data() {

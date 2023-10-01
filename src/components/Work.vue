@@ -142,12 +142,12 @@
                     </ul>
                 </div>
                 <div className="flex relative bottom-[-20px]">
-                    <a className='flex justify-between items-center dark:text-white pr-4 hover:text-pink-600 dark:hover:text-pink-600 duration-300' href='https://munia.co/' target='_blank' rel="noreferrer"> 
-                        <fa icon="arrow-up-right-from-square" class="fa-lg" />
+                    <a className='flex justify-between items-center dark:text-white pr-4 hover:text-pink-600 dark:hover:text-pink-600 duration-300' href='http://juanpabloosudar-spa-marvel.s3-website.us-east-2.amazonaws.com/' target='_blank' rel="noreferrer"> 
+                        <fa :icon="['fab', 'github']" class="fa-lg" />
                     </a>
                 </div>
             </div>
-            <a className="hidden md:flex w-[70%] h-[250px] my-auto z-0 overflow-hidden" href='https://munia.co/' target='_blank' rel="noreferrer">
+            <a className="hidden md:flex w-[70%] h-[250px] my-auto z-0 overflow-hidden" href='http://juanpabloosudar-spa-marvel.s3-website.us-east-2.amazonaws.com/' target='_blank' rel="noreferrer">
                 <div className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300" :style="{'background-image': 'url(' + Marvel + ')'}"/>
             </a>
         </div>
@@ -217,9 +217,6 @@
                     <a className='flex justify-between items-center dark:text-white pr-4 hover:text-pink-600 dark:hover:text-pink-600 duration-300' href='https://github.com/parzybaal/PI-Dogs-main' target='_blank' rel="noreferrer"> 
                         <fa :icon="['fab', 'github']" class="fa-lg" />
                     </a>
-                    <a className='flex justify-between items-center dark:text-white pr-4 hover:text-pink-600 dark:hover:text-pink-600 duration-300' href='https://github.com/parzybaal/PI-Dogs-main' target='_blank' rel="noreferrer"> 
-                        <fa icon="arrow-up-right-from-square" class="fa-lg" />
-                    </a>
                 </div>
             </div>
             <a className="hidden md:flex w-[70%] h-[250px] my-auto z-0 overflow-hidden" href='https://github.com/parzybaal/PI-Dogs-main' target='_blank' rel="noreferrer">
@@ -234,10 +231,10 @@
 <script>
 import ELatam from '../assets/e-latam.png'
 import HenryDogs from '../assets/HenryDogs.jpeg'
-import SuperMarket from '../assets/super-market.PNG'
-import Indian from '../assets/indianandco.PNG'
+import SuperMarket from '../assets/super-market.png'
+import Indian from '../assets/indianandco.png'
 import Munia from '../assets/munia.png'
-import Marvel from '../assets/marvel.PNG'
+import Marvel from '../assets/marvel.png'
 
 export default {
     data() {

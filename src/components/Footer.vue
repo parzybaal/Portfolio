@@ -46,7 +46,7 @@ export default {
       return this.$store.state.lang === 'en' ? this.eng : this.es
     },
     link(){
-      return this.$store.state.lang === 'en' ? 'https://drive.google.com/file/d/1974zlK3YOpyQNpxyioy8CYtK6H1fI-K7/view?usp=sharing' : 'https://drive.google.com/file/d/1974zlK3YOpyQNpxyioy8CYtK6H1fI-K7/view?usp=sharing'
+      return this.$store.state.lang === 'en' ? 'https://drive.google.com/file/d/1qcfs_v2KRrTVOQpcW3cgOImgSgNlv0Uz/view?usp=sharing' : 'https://drive.google.com/file/d/1qcfs_v2KRrTVOQpcW3cgOImgSgNlv0Uz/view?usp=sharing'
     }
   }
 }
